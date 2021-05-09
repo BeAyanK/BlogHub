@@ -3,7 +3,7 @@ $host="localhost";
 $user="root";
 $password="";
 $db="Bloghub";
- 
+
 $conn=mysqli_connect($host,$user,$password,$db);
 
 if(isset($_POST['fname']))
@@ -15,7 +15,7 @@ if(isset($_POST['fname']))
 	$result=mysqli_query($conn,$sql);
 
 	if(mysqli_num_rows($result)==1){
-		echo "you have successfull loged in";
+		echo "you have successfully logged in";
 		exit();
 
 	}

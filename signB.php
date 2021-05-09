@@ -11,7 +11,7 @@ $missingUsername='<p><strong>Please enter a username!</strong></p>';
 $missingEmail='<p><strong>Please enter your email address!</strong></p>';
 $invalidEmail='<p><strong>Please enter a valid email address!</strong></p>';
 $missingPassword='<p><strong>Please enter a password!</strong></p>';
-$invalidPassword='<p><strong>Your password should be atleast 6 characters long and include one Capital letter and one number!</strong></p>';
+$invalidPassword='<p><strong>Your password should be at least 6 characters long and include one Capital letter and one number!</strong></p>';
 $differentPassword='<p><strong>Password doesn\'t match!</strong></p>';
 $missingPassword2='<p><strong>Please confirm your password!</strong></p>';
 
