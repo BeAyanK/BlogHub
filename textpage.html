@@ -40,14 +40,14 @@
 </style>
 </head>
 	<body>
-		<form action="connection.php" method="post">
+		<form action="connection.php" method="GET">
 			<form>
-				Title: <input type="text" name="ftitle"><br>
-				Blog:<br><br><textarea rows="45" cols="205"></textarea> 
+				Title: <input type="text" name="title"><br>
+				Blog:<br><br><textarea name="blog" rows="45" cols="205"></textarea> 
 			</form>
 		</form>
 	<div class="button">
-		<button>Publish</button>
+		<button name="new_post">Publish</button>
 	</div>
 	</body>
 </html>
